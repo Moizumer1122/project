@@ -17,17 +17,17 @@ const Home = () => {
         <div className="homepage">
         
             <img  src={pic1} alt=".."  />
-          
+          {/* heading */}
             <h1 style={{ fontSize: '65px' }}>
                 Perfect Way to Buy
             </h1>
             <h1 style={{ fontSize: '65px' }}>And Sell A Home </h1>
-
+{/* pararaph */}
             <p style={{ paddingTop: '30px', fontSize: '18px' }}>Diam vitae, nec mattis lectus quam pretium amet facilisis. Urna, massa aliqua <br />
                 dui pellentesque. Ac, gravida in eget non amet eget purus non.
 
             </p>
-
+{/* Dropdown */}
             <div style={{ paddingTop: '50px' }}>
                 <table>
                     <tr >
@@ -63,7 +63,7 @@ const Home = () => {
                         </td>
                         <td>
                             <div class="dropdown">
-                                <button class="button">Dropdown</button>
+                                <button class="button">Search</button>
                             </div>
                         </td>
 
@@ -76,7 +76,7 @@ const Home = () => {
             <div className="row"style={{ paddingTop: '100px' }}>
   
   
-
+{/* featured in images */}
   <div className="column" >
     <img src={logo4} alt="Logo 4" />
   </div>
