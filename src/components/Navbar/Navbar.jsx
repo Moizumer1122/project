@@ -73,7 +73,7 @@ const Navbar = () => {
 
        
 
-        <li className="nav-item" style={{paddingLeft:'100px'}}>
+        <li className="btn" >
 
         <Link to="" className="nav-Link ">Login In</Link>
         </li>

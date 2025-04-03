@@ -13,10 +13,10 @@ import pic1 from '../../public/images/pic1.png';
 
 const Home = () => {
     return ( 
-      
+     
         <div className="homepage">
-        
-            <img  src={pic1} alt=".."  />
+         <img  src={pic1} alt=".."  />
+            
           {/* heading */}
             <h1 style={{ fontSize: '65px' }}>
                 Perfect Way to Buy
